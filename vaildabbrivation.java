@@ -17,6 +17,9 @@ public class vaildabbrivation {
                 System.out.println(k);
                 i=i+k;
             }
+            else{
+                return false;
+            }
         }
         System.out.println(i+"  "+j);
         return i == S.length() && j == SC.length();
